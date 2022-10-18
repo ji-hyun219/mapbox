@@ -4,6 +4,8 @@
 <dict>
 	<key>CADisableMinimumFrameDurationOnPhone</key>
 	<true/>
+	<key>MBXAccessToken></key>
+	<string>pk.eyJ1IjoiamloeXVuLWxlZSIsImEiOiJjbDljYzBnOWgxZXd5M3RudGEwMGwxdW84In0.urWHXKEJfB_M9LBViURgRw</string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
 	<key>CFBundleDisplayName</key>
