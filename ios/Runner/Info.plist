@@ -6,6 +6,8 @@
 	<true/>
 	<key>MBXAccessToken></key>
 	<string>pk.eyJ1IjoiamloeXVuLWxlZSIsImEiOiJjbDljYzBnOWgxZXd5M3RudGEwMGwxdW84In0.urWHXKEJfB_M9LBViURgRw</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>경로를 따라 이동할 때 사용자의 위치 추적</key>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
 	<key>CFBundleDisplayName</key>

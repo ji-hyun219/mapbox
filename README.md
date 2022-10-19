@@ -23,7 +23,7 @@ https://github.com/ji-hyun219/mapbox-flutter
 
 ## 2. ios - 토큰 교체
 
-### 공개 토큰인 경우
+### `공개 토큰인 경우`
 
 Info.plist 파일을 열고 `MBXAccessToken` 값이 `공개 엑세스 토큰인 키를 추가`한다.
 
@@ -34,7 +34,7 @@ Info.plist 파일을 열고 `MBXAccessToken` 값이 `공개 엑세스 토큰인 
 
 이렇게 나의 `public access token 을 추가`해주면 된다.
 
-### 시크릿 토큰인 경우
+### `시크릿 토큰인 경우`
 
 - 홈 디렉터리란
   Home Directory (~)
@@ -61,9 +61,9 @@ machine api.mapbox.com
   password <YOUR_SECRET_TOKEN>
 ```
 
-## Android - 토큰 교체
+## 3. Android - 토큰 교체
 
-### 비밀 토큰 구성
+### `시크릿 토큰 구성`
 
 비밀 토큰이 노출되지 않도록 하려면 이를 환경변수로 추가해라.
 
@@ -84,7 +84,7 @@ https://docs.gradle.org/current/userguide/directory_layout.html#dir:gradle_user_
 
 위의 url 을 클릭하면 `gradle.properties` 파일은 `전역 Gradle 구성 속성` 에 대한 내용의 파일
 
-### 공개 토큰 구성
+### `공개 토큰 구성`
 
 ```
 <string name="mapbox_access_token">YOUR_MAPBOX_ACCESS_TOKEN</string>
