@@ -130,8 +130,8 @@ class _MyAppState extends State<MyApp> {
                             );
                             var v2 = WayPoint(
                               name: "Way Point 20",
-                              latitude: 37.549510,
-                              longitude: 127.051210,
+                              latitude: 37.559510,
+                              longitude: 128.051210,
                             );
                             wayPoints.add(v1);
                             wayPoints.add(v2);
@@ -295,7 +295,7 @@ class _MyAppState extends State<MyApp> {
               ),
             ),
             Expanded(
-              flex: 1,
+              flex: 4,
               child: Container(
                 color: Colors.grey,
                 child: MapBoxNavigationView(
